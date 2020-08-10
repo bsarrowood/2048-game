@@ -1,19 +1,19 @@
-# created by:	    reurbo
-# created on:       2019.12.04
-# last updated:	    2020.04.21
-# python version:   3.7.6
-# run format:       python3 GameManager.py
-# file:			    PlayerAI.py
-# addendums:        BaseAI.py
-#                   BaseDisplayer.py
-#                   ComputerAI.py
-#                   Displayer.py
-#                   GameManager.py
-#                   Grid.py
-# notes:		    made for edX ColumbiaX: CSMM.101x - Artificial Intelligence (AI) - week 4, project 2
-# 				    This should inherit from BaseAI. The getMove() function, which you will need to implement, returns a number that indicates the player’s action.
-#                   In particular, 0 stands for "Up", 1 stands for "Down", 2 stands for "Left", and 3 stands for "Right". You need to create this file and make it as intelligent as possible.
-#                   You may include other files in your submission, but they will have to be included through this file.
+# created by:		Brad Arrowood
+# created on:		2019.12.04
+# last updated:		2020.04.21
+# python version:	3.7.6
+# run format:		python3 GameManager.py
+# file:			PlayerAI.py
+# addendums:		BaseAI.py
+#			BaseDisplayer.py
+#			ComputerAI.py
+#			Displayer.py
+#			GameManager.py
+#			Grid.py
+# notes:		made for edX ColumbiaX: CSMM.101x - Artificial Intelligence (AI) - week 4, project 2
+#			This should inherit from BaseAI. The getMove() function, which you will need to implement, returns a number that indicates the player’s action.
+#			In particular, 0 stands for "Up", 1 stands for "Down", 2 stands for "Left", and 3 stands for "Right". You need to create this file and make it as intelligent as possible.
+#			You may include other files in your submission, but they will have to be included through this file.
 
 # 1) Employ the minimax algorithm. This is a requirement. There are many viable strategies to beat the 2048-puzzle game, but in this assignment we will be practicing with the minimax algorithm.
 # 2) Implement alpha-beta pruning. This is a requirement. This should speed up the search process by eliminating irrelevant branches. In this case, is there anything we can do about move ordering?
